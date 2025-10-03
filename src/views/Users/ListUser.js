@@ -38,8 +38,8 @@ class ListUser extends React.Component {
                                     <div className='child' key={item.id}
                                         onClick={() => this.handleViewDetailUser(item)}
                                     >
-                                        {index + 1} - {item.email} - {item.password
-                                        }
+                                        {index + 1} - {item.email}
+
                                     </div>
 
                                 )
